@@ -1,16 +1,16 @@
-# 🏏 IPL Match Score & Performance Analysis (2008–2023)
+#  IPL Match Score & Performance Analysis (2008–2023)
 
 ![R](https://img.shields.io/badge/Language-R-276DC3?style=flat&logo=r)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-Sports%20Analytics-2E75B6)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle%20IPL-orange)
 
-## 📌 Overview
+##  Overview
 A comprehensive statistical analysis of **16 seasons of Indian Premier League (IPL)** data (2008–2023), covering team performance, toss impact, scoring patterns, and player statistics. The project culminates in a **multiple linear regression model** predicting first-innings total scores based on match and batting conditions.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Analyze team win patterns across 16 IPL seasons
 - Quantify the statistical impact of the toss on match outcomes
 - Profile scoring trends across Powerplay, Middle, and Death overs
@@ -19,7 +19,7 @@ A comprehensive statistical analysis of **16 seasons of Indian Premier League (I
 
 ---
 
-## 📊 Dataset
+##  Dataset
 | Attribute | Details |
 |-----------|---------|
 | Source | Kaggle IPL Complete Dataset |
@@ -31,7 +31,7 @@ A comprehensive statistical analysis of **16 seasons of Indian Premier League (I
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Team Performance Analysis
 - Win counts and win percentages by team across all seasons
@@ -71,7 +71,7 @@ A comprehensive statistical analysis of **16 seasons of Indian Premier League (I
 
 ---
 
-## 📈 Key Findings
+##  Key Findings
 - **Mumbai Indians** and **Chennai Super Kings** dominate win counts across seasons
 - Toss win converts to match win only ~50% of the time — **toss advantage is statistically modest**
 - Death overs (16–20) have the highest run rate but also the highest wicket rate
@@ -80,13 +80,13 @@ A comprehensive statistical analysis of **16 seasons of Indian Premier League (I
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** R
 - **Key Packages:** `tidyverse`, `ggplot2`, `gridExtra`, `corrplot`, `broom`, `car`
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 ```r
 # 1. Download data from Kaggle (link above) and place in working directory
 #    OR run as-is — script includes realistic simulated data as fallback
@@ -101,7 +101,7 @@ source("ipl_analysis.R")
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 04_ipl_analysis/
 │
